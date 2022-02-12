@@ -7,7 +7,7 @@ import userRouter from './src/routes/user.router';
 import busRouter from './src/routes/bus.router';
 import createOrFindAdminAccount from './src/functions/createOrFindAdminAccount';
 
-const port = CONFIG.PORT;
+const port = CONFIG.PORT || 80;
 
 const server = express();
 
